@@ -9,6 +9,16 @@ This repository provides a collection of services for use with Vinetrimmer, focu
 > It may be used inside a version of Vinetrimmer.
 > All services were written and tested using the version maintained by [chu23465](https://github.com/chu23465/VT-PR).
 
+## Usage
+
+If your VT version doesn't recognize automatically the services, you must add these lines in the `__init__.py` file located inside `services` folder:
+
+```python
+from vinetrimmer.services.f1tv import f1tv
+from vinetrimmer.services.meliplay import Meliplay
+from vinetrimmer.services.maissbt import MaisSBT
+```
+
 ---
 
 ## F1 TV
