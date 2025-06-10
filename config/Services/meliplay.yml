@@ -1,0 +1,11 @@
+region: 'BR'
+
+endpoints:
+  AR: 'https://play.mercadolibre.com.ar/api/{req_type}/{title_id}'
+  BR: 'https://play.mercadolivre.com.br/api/{req_type}/{title_id}'
+  CL: 'https://play.mercadolibre.cl/api/{req_type}/{title_id}'
+  CO: 'https://play.mercadolibre.com.co/api/{req_type}/{title_id}'
+  EC: 'https://play.mercadolibre.com.ec/api/{req_type}/{title_id}'
+  MX: 'https://play.mercadolibre.com.mx/api/{req_type}/{title_id}'
+  PE: 'https://play.mercadolibre.com.pe/api/{req_type}/{title_id}'
+  UY: 'https://play.mercadolibre.com.uy/api/{req_type}/{title_id}'

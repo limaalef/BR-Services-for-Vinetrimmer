@@ -1,0 +1,20 @@
+plan: 'F1_TV_Pro_Annual'
+
+region: 'BR'
+
+devices:
+  web:
+    DeviceInfo: 'device=web;screen=browser;os=windows;browser=chrome;browserVersion=136.0.0.0;osVersion=11'
+    UserAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'
+
+  android:
+    DeviceInfo: 'device=android;screen=mobile;os=android;model=SM-S931B;osVersion=15'
+    UserAgent: 'okhttp/4.12.0'
+
+  tvos:
+    DeviceInfo: 'device=tvos'
+    UserAgent: 'F1TV-tvOS/1.30.1 CFNetwork/1391.3 Darwin/22.0.0'
+
+endpoints:
+  title: 'https://f1tv.formula1.com/3.0/R/ENG/BIG_SCREEN_HLS/ALL/CONTENT/VIDEO/{title_id}/{plan}/2?contentId={title_id}&entitlement={plan}&homeCountry={region}'
+  tracks: 'https://f1tv.formula1.com/2.0/R/POR/BIG_SCREEN_HLS/ALL/CONTENT/PLAY'

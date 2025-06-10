@@ -1,0 +1,10 @@
+endpoints:
+  title: 'https://api.globovideos.com/videos/{title_id}/playlist/'
+  video-session: 'https://playback.video.globo.com/v4/video-session'
+
+video-request:
+  playerType: 'roku_4k_hdr'
+
+WVDeviceID: 'ZDY4NDM5MDgtMzQ4Mi0zZGU5LThlZDQtYjRiNWM5ZjBmOWU5'
+
+UserAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'
