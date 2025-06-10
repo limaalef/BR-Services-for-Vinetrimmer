@@ -14,7 +14,7 @@ This repository provides a collection of services for use with Vinetrimmer, focu
 If your VT version doesn't recognize automatically the services, you must add these lines in the `__init__.py` file located inside `services` folder:
 
 ```python
-from vinetrimmer.services.f1tv import f1tv
+from vinetrimmer.services.f1tv import F1tv
 from vinetrimmer.services.meliplay import Meliplay
 from vinetrimmer.services.maissbt import MaisSBT
 ```
@@ -84,6 +84,7 @@ poetry run vt dl -aleng pt,en --slang pt,es -w S01E12 MELI -s --no-cache https:/
 
 **How to Use:**  
 - Login and extract cookies from any page and save to path `vinetrimmer\Cookies\Meliplay\default.txt` (Case sensitive).
+- Supported alias: `MELI`, `MELIPLAY` and `MLPLAY`
 - Commands `-al/--alang` and `-sl/--slang` are fully supported, use as you want.
 - If the content has several episodes and/or seasons, you must use the personalized commands to get all content:
 
