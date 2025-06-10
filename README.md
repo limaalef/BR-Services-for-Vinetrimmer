@@ -1,4 +1,4 @@
-![GitHub last commit](https://img.shields.io/github/last-commit/limaalef/VT-PR?logo=github)
+![GitHub last commit](https://img.shields.io/github/last-commit/limaalef/BR-Services-for-Vinetrimmer?logo=github)
 
 # BR Services for Vinetrimmer
 
